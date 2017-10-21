@@ -3,21 +3,27 @@
 #include <QGraphicsDropShadowEffect>
 #include <QWebEngineView> 
 #include <QString>
+#include <QtWinExtras/QtWinExtras>
 liulangqi::liulangqi(QWidget *parent)
 	: QWidget(parent)
 {
 	ui.setupUi(this);
-	this->setWindowFlags(Qt::FramelessWindowHint);
+	
+	/*this->setWindowFlags(Qt::FramelessWindowHint);*/
+	QtWin::extendFrameIntoClientArea(this, -1, -1, -1, -1);
+	this->setAttribute(Qt::WA_TranslucentBackground, true);
+	this->setAttribute(Qt::WA_NoSystemBackground, false);
+	setStyleSheet("#liulangqiClass{background:transparent;}");
 
-	QGraphicsDropShadowEffect *shadow = new QGraphicsDropShadowEffect();
-	shadow->setBlurRadius(10);
-	shadow->setColor(Qt::black);
-	shadow->setOffset(0);
-	ui.w_haha->setGraphicsEffect(shadow);
+// 	QGraphicsDropShadowEffect *shadow = new QGraphicsDropShadowEffect();
+// 	shadow->setBlurRadius(10);
+// 	shadow->setColor(Qt::black);
+// 	shadow->setOffset(0);
+// 	ui.w_haha->setGraphicsEffect(shadow);
 	connect(ui.b_load, SIGNAL(clicked()), this, SLOT(linkwangye()));
 	connect(ui.webEngineView, SIGNAL(loadProgress(int )), this, SLOT(jaizai(int )));
 
-	this->setAttribute(Qt::WA_TranslucentBackground);
+	
 }
 //鼠标按下事件
 void liulangqi::mousePressEvent(QMouseEvent *event)

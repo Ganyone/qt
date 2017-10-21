@@ -7,6 +7,7 @@ TARGET = liulangqi
 DESTDIR = ../x64/Debug
 QT += core widgets gui
 QT += webenginewidgets
+QT += winextras
 CONFIG += debug
 DEFINES += WIN64 QT_DLL QT_WIDGETS_LIB
 INCLUDEPATH += ./GeneratedFiles \
