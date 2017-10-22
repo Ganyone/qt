@@ -3,4 +3,4 @@
 
 项目_浏览器
 
-https://github.com/XuWuDeAi/qt/blob/master/XY1.jpg
+![Aaron Swartz](https://github.com/XuWuDeAi/qt/raw/master/XY1.jpg)
