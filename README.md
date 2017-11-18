@@ -7,4 +7,9 @@
 
 
 项目_GL_study
-![Aaron Swartz](![Aaron Swartz](https://github.com/XuWuDeAi/qt/blob/master/1.jpg)
+![Aaron Swartz](https://github.com/XuWuDeAi/qt/blob/master/1.jpg)
+
+
+项目_bilimiao
+![Aaron Swartz](https://github.com/XuWuDeAi/qt/blob/master/1.jpg)
+![Aaron Swartz](https://github.com/XuWuDeAi/qt/blob/master/1.jpg)
