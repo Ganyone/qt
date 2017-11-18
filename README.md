@@ -7,4 +7,4 @@
 
 
 项目_GL_study
-![Aaron Swartz](![Aaron Swartz](https://github.com/XuWuDeAi/qt/raw/master/XY1.jpg))
+![Aaron Swartz](![Aaron Swartz](https://github.com/XuWuDeAi/qt/blob/master/1.jpg)
